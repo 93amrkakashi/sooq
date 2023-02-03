@@ -1,0 +1,72 @@
+@use "./styles/layout/navbar";
+@use "./styles/layout/admin";
+@use "./styles/layout/cartcontenet";
+@use "./styles/layout/productcard";
+@use "./styles/pages/login";
+@use "./styles/pages/register";
+@use "./styles/pages/addproduct";
+@use "./styles/pages/users";
+@use "./styles/pages/user";
+@use "./styles/pages/productinfo";
+
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+}
+body {
+  font-family: "Cairo", sans-serif;
+  padding: 0;
+  background-color: #18191a;
+  color: #e4e6eb;
+  overflow-x: hidden;
+
+}
+.icon {
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: #dff6ff;
+}
+button {
+  width: fit-content;
+  padding: 1px 7px;
+  outline: none;
+  border: none;
+  background-color: #341df1;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  &:hover {
+    cursor: pointer;
+  }
+  &:disabled,
+  &[disabled] {
+    // border: 1px solid #999999;
+    background-color: #361df165;
+    color: #666666;
+    cursor: default;
+  }
+}
+
+.poslider{
+  .link {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+}
+
+.slick-slide > div {
+  display: grid;
+  place-items: center;
+  width: 95%;
+  margin: auto;
+  padding: 0px;
+}

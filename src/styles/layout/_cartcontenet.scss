@@ -1,0 +1,29 @@
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  .product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    height: 255px;
+    border-radius: 10px;
+    background-color: #242526;
+    overflow: hidden;
+    padding-bottom: 8px;
+    
+    .actions button{
+      width: 30%;
+    padding: 0 3px;
+    font-size: 15px;
+    }
+}
+
+}
+.totals {
+  margin: 5px 12px;
+}

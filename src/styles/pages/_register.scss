@@ -1,0 +1,65 @@
+.regster{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+
+}
+.login-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #3a3b3c38;
+  width: 40%;
+  height: 70%;
+  border-radius: 10px;
+  color: #dff6ff;
+  a{
+    color:white;
+    font-size: 20px;
+  }
+
+  h2 {
+    color: #dff6ff;
+    padding: 10px;
+    letter-spacing: 2px;
+  }
+  form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    width: 95%;
+    label {
+      font-size: 20px;
+      letter-spacing: 2px;
+    }
+    .login-btn {
+      width: 65%;
+      height: 45px;
+    }
+    input {
+      text-align: center;
+      border: none;
+      height: 25px;
+      outline: none;
+      color: black;
+      width: 90%;
+      border-radius: 5px;
+      font-size: 17px;
+      font-weight: 600;
+      padding: 15px;
+    }
+  }
+}
+
+@media screen and (max-width:750px) {
+  .login-card {
+    
+    width: 75%;
+  }
+  
+  
+}

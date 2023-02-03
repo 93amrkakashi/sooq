@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+
+}
+/* img{
+  width: 120px;
+  height: 120px;
+} */
+
+.product-card{
+  border: 1px solid black;
+  width: 300px;
+}
+
+.products{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
